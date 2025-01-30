@@ -1,0 +1,25 @@
+.footer {
+    padding: 30px 10px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+    font-size: 0.9rem;
+    width: 100%; 
+    text-align: center;
+    z-index: 1;
+  }
+
+  .footer-content {
+    margin-top: auto;
+  }
+  .footer-content a {
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  

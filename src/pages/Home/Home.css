@@ -1,0 +1,68 @@
+.site-title {
+    margin-bottom: 20px;
+}
+
+.site-title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.site-title .tagline {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+
+.main-slider {
+    height: 70vh; 
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+.slide-content {
+    text-align: center;
+    max-width: 600px;
+    z-index: 2;
+}
+
+
+.thumbnail-slider {
+    margin-top: 20px;
+    padding: 10px 0;
+    cursor: pointer;
+    
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(1, 55, 117);
+
+}
+
+.thumbnail p {
+    color: #fff;
+    font-size: 14px;
+}

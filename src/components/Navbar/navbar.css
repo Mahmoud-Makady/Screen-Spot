@@ -1,0 +1,23 @@
+.links {
+    transition: border-bottom 0.4s ease;
+  }
+  
+  .links:hover {
+    border-bottom: 2px solid rgb(2, 36, 150);
+    /* transform: scale(1.1);  */
+    text-decoration: none; 
+  }
+  
+
+ /* .log {
+    position: absolute;
+    left: 75%;
+ }
+ .count {
+    position: absolute;
+    left: 90%;
+ } */
+
+ .counter {
+  background-color: red;
+ }
